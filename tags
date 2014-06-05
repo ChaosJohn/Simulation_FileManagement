@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFDList	FileManagement.c	/^} AFDNode, *AFDPointer, *AFDList; $/;"	t	typeref:struct:_afd	file:
+AFDNode	FileManagement.c	/^} AFDNode, *AFDPointer, *AFDList; $/;"	t	typeref:struct:_afd	file:
+AFDPointer	FileManagement.c	/^} AFDNode, *AFDPointer, *AFDList; $/;"	t	typeref:struct:_afd	file:
+CMDSIZE	FileManagement.c	7;"	d	file:
+FileNode	FileManagement.c	/^} FileNode, *FilePointer; $/;"	t	typeref:struct:_File	file:
+FilePointer	FileManagement.c	/^} FileNode, *FilePointer; $/;"	t	typeref:struct:_File	file:
+MDFList	FileManagement.c	/^} MDFNode, *MDFPointer, *MDFList; $/;"	t	typeref:struct:_mdf	file:
+MDFNode	FileManagement.c	/^} MDFNode, *MDFPointer, *MDFList; $/;"	t	typeref:struct:_mdf	file:
+MDFPointer	FileManagement.c	/^} MDFNode, *MDFPointer, *MDFList; $/;"	t	typeref:struct:_mdf	file:
+NAMESIZE	FileManagement.c	6;"	d	file:
+UFDList	FileManagement.c	/^} UFDNode, *UFDPointer, *UFDList; $/;"	t	typeref:struct:_ufd	file:
+UFDNode	FileManagement.c	/^} UFDNode, *UFDPointer, *UFDList; $/;"	t	typeref:struct:_ufd	file:
+UFDPointer	FileManagement.c	/^} UFDNode, *UFDPointer, *UFDList; $/;"	t	typeref:struct:_ufd	file:
+_File	FileManagement.c	/^typedef struct _File {$/;"	s	file:
+_afd	FileManagement.c	/^typedef struct _afd {$/;"	s	file:
+_mdf	FileManagement.c	/^typedef struct _mdf {$/;"	s	file:
+_ufd	FileManagement.c	/^typedef struct _ufd {$/;"	s	file:
+afdList	FileManagement.c	/^AFDList afdList; $/;"	v
+canExec	FileManagement.c	/^  int canExec; $/;"	m	struct:_ufd	file:
+canRead	FileManagement.c	/^  int canRead; $/;"	m	struct:_ufd	file:
+canWrite	FileManagement.c	/^  int canWrite; $/;"	m	struct:_ufd	file:
+changeString	FileManagement.c	/^changeString(char *string) {$/;"	f
+compareCmd	FileManagement.c	/^compareCmd(char *cmd1, $/;"	f
+createFile	FileManagement.c	/^createFile(char *userName) {$/;"	f
+createUser	FileManagement.c	/^createUser() {$/;"	f
+directoryPointer	FileManagement.c	/^  UFDList directoryPointer; $/;"	m	struct:_mdf	file:
+directoryPointer	FileManagement.c	/^UFDPointer directoryPointer; $/;"	v
+fileName	FileManagement.c	/^  char fileName[NAMESIZE]; $/;"	m	struct:_File	file:
+fileName	FileManagement.c	/^  char fileName[NAMESIZE]; $/;"	m	struct:_afd	file:
+fileName	FileManagement.c	/^  char fileName[NAMESIZE]; $/;"	m	struct:_ufd	file:
+filePos	FileManagement.c	/^  int filePos; $/;"	m	struct:_afd	file:
+findDirectoryByUserName	FileManagement.c	/^findDirectoryByUserName(const char *userName) {$/;"	f
+id	FileManagement.c	/^  int id; $/;"	m	struct:_File	file:
+init	FileManagement.c	/^init() {$/;"	f
+length	FileManagement.c	/^  int length; $/;"	m	struct:_ufd	file:
+lsfile	FileManagement.c	/^lsfile() {$/;"	f
+lsuser	FileManagement.c	/^lsuser() {$/;"	f
+main	FileManagement.c	/^main(int argc, $/;"	f
+mdfList	FileManagement.c	/^MDFList mdfList; $/;"	v
+next	FileManagement.c	/^  struct _mdf *next; $/;"	m	struct:_mdf	typeref:struct:_mdf::_mdf	file:
+next	FileManagement.c	/^  struct _ufd *next; $/;"	m	struct:_ufd	typeref:struct:_ufd::_ufd	file:
+printCmds	FileManagement.c	/^printCmds() {$/;"	f
+userName	FileManagement.c	/^  char userName[NAMESIZE]; $/;"	m	struct:_afd	file:
+userName	FileManagement.c	/^  char userName[NAMESIZE]; $/;"	m	struct:_mdf	file:
+working	FileManagement.c	/^working() {$/;"	f
